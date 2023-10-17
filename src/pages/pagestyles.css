@@ -1,0 +1,159 @@
+
+
+.contact-form {
+    margin-left: 500px;
+    color: salmon;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.contact-text {
+    margin-top: 600px;
+    margin-left: 150px;
+    color: black;
+    font-size: 150px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}   
+.biggerabout {
+    padding: 50px;
+    /*border: 1px solid red;*/
+    font-size: 200px;
+    color: teal;
+
+ 
+    font-family: 'Lütschine';
+    font-family: 'Helvetica';
+    font-family: 'Impact';
+    font-weight: bold;
+    text-align: left;
+
+    margin-left: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.about-text {
+    color: teal;
+    font-size: 30px;
+    margin-left: 150px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 800px;
+    background-color: rgba(255, 255, 0, 0.189);
+    margin-bottom: 300px;
+}
+
+.about-header {
+    padding: 50px;
+    /*border: 1px solid red;*/
+    font-size: 200px;
+    color: teal;
+    text-decoration: underline;
+
+ 
+    font-family: 'Lütschine';
+    font-family: 'Helvetica';
+    font-family: 'Impact';
+    font-weight: bold;
+    text-align: left;
+
+    margin-left: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.home-text {
+    color: purple;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans';
+    width: 300px;
+}
+
+/*flexbox..*/
+.exp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.exp-item {
+    background-color: rgba(190, 245, 245, 0.223);
+    flex: 0 0 925px;
+    margin: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px dashed teal;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 30px;
+   
+}
+
+.exp-info {
+    flex: 1;
+
+}
+
+.exp-info h2 {
+    font-size: 40px;
+    color: black;
+    margin: 2px 0;
+}
+
+.exp-info h3 {
+    font-size: 30px;
+    color: gray;
+    margin: 2px 0;
+}
+.exp-info h4 {
+    font-size: 20px;
+    color: gray;
+    margin: 2px 0;
+}
+
+.exp-item p {
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+    flex: 2;
+    
+    font-family: "Helvetica", sans-serif; /* Use "Helvetica" or a fallback sans-serif font */
+    font-weight: bold; /* Apply bold weight */
+      
+}
+
+
+.biggername {
+    padding: 50px;
+    /*border: 1px solid red;*/
+    font-size: 200px;
+    color: teal;
+    text-decoration: underline;
+
+
+ 
+    font-family: 'Lütschine';
+    font-family: 'Helvetica';
+    font-family: 'Impact';
+    font-weight: bold;
+    text-align: left;
+
+    margin-left: 100px;
+    height: 100px;
+    margin-bottom: 125px;
+}
+
+.big-image {
+    border: 2px solid green;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    text-align: right;
+    max-width: 20%;
+    height: auto;
+
+    margin-right: 20px;
+    margin-left: 800px;
+   
+}

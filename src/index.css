@@ -1,5 +1,14 @@
 body {
   margin: 0;
+    background-image: url('./images/green.png');
+    background-size: 100%;
+    background-repeat: no-repeat;   
+    
+
+    /*background-image: url('./images/waves.jpeg');
+    background-size: 25%;
+    background-repeat: none;   */
+    
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +19,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+    background-color: green;
+    color: black;
+    border: none;
+    font-family: Helvetica;
+    font-size: 30px;
 }
