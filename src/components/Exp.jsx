@@ -3,7 +3,7 @@ import '../pages/pagestyles.css';
 
 function Exp(props) {
     const { title, role, dates, text } = props;
-    const sentences = text.split('.').map(sentence => sentence.trim()).filter(Boolean);
+    const sentences = text.split('. ').filter(Boolean);
     
     return (
         <div>
@@ -16,7 +16,7 @@ function Exp(props) {
                     </div>
                     <p>
                     {sentences.map((sentence, index) => (
-                            <span key={index}> {sentence}</span>
+                            <p key={index}>{sentence}</p>
                         ))}
                     </p>
                 </div>

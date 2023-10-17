@@ -2,23 +2,24 @@
 import React from 'react';
 import './pagestyles.css';
 import poop from '../images/orange.jpg';
-import git from '../images/orange.jpg';
-import link from '../images/orange.jpg';
+import git from '../images/git.png';
+import link from '../images/linky.png';
 
 function Contact() {
   return (
     <div id="contact">{}
-    <div className='contact-text'> contact me at...</div>
-    <div className='contact-form'>jjhe9999@berkeley.edu</div>
-    <img src={poop} alt="help"></img>
-    <a href="https://www.example.com/page1">
-  <img src="../images/purp.jpeg" alt="Image 1" style={{ display: 'inline-block' }} />
+    <div className='contact-text'> contact me!</div>
+    
+    
+    <a href="https://github.com/jjhe9999">
+  <img src={git} alt="Image 1" style={{ display: 'inline-block' , width:'3%', height: '3%',marginLeft:'150px'}} />
 </a>
 
-<a href="https://www.example.com/page2">
-  <img src="image2.jpg" alt="Image 2" style={{ display: 'inline-block' }} />
+<a href="https://linkedin.com/in/jjhe9999">
+  <img src={link} alt="Image 2" style={{ display: 'inline-block' , width:'3%', height: '3%', marginLeft: '20px'}} />
 </a>
 
+<div className='contact-form'>jjhe9999@berkeley.edu</div>
 
     </div>     
   );

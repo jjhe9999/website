@@ -1,26 +1,32 @@
 
 
 .contact-form {
-    margin-left: 500px;
-    color: salmon;
+    background-color: rgba(255, 255, 0, 0.35);
+    display: inline-block;
+    margin-left: 300px;
+    color: rgb(92, 159, 129);
+    margin-bottom: 300px;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+    font-family: 'Courier New', Courier, monospace
+}
 
 .contact-text {
-    margin-top: 600px;
+    text-decoration: underline;
+    margin-top: 400px;
     margin-left: 150px;
-    color: black;
+    color: rgb(7, 112, 79);
     font-size: 150px;
     font-weight: bold;
+    margin-bottom: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }   
 .biggerabout {
     padding: 50px;
     /*border: 1px solid red;*/
     font-size: 200px;
-    color: teal;
+    color: rgb(7, 112, 79);
 
  
     font-family: 'Lütschine';
@@ -41,7 +47,7 @@
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     width: 800px;
-    background-color: rgba(255, 255, 0, 0.189);
+    background-color: rgba(255, 255, 0, 0.35);
     margin-bottom: 300px;
 }
 
@@ -49,7 +55,7 @@
     padding: 50px;
     /*border: 1px solid red;*/
     font-size: 200px;
-    color: teal;
+    color: rgb(7, 112, 79);
     text-decoration: underline;
 
  
@@ -85,7 +91,7 @@
     margin: 150px;
     padding: 10px;
     box-sizing: border-box;
-    border: 5px dashed teal;
+    border: 5px dashed rgba(0, 128, 128, 0.7);
     display: flex;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -94,34 +100,42 @@
 
 .exp-info {
     flex: 1;
+    margin-left: 7px;
 
 }
 
 .exp-info h2 {
     font-size: 40px;
-    color: black;
+    color: rgb(7, 112, 79);
     margin: 2px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .exp-info h3 {
     font-size: 30px;
-    color: gray;
+    color: teal;
     margin: 2px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight: 550;
+
 }
 .exp-info h4 {
     font-size: 20px;
     color: gray;
     margin: 2px 0;
+    font-weight: 300;
 }
 
 .exp-item p {
     font-size: 20px;
-    color: gray;
-    margin-top: 5px;
+    color: rgb(20, 81, 39, 0.7);
+    margin-top: 10px;
     flex: 2;
     
-    font-family: "Helvetica", sans-serif; /* Use "Helvetica" or a fallback sans-serif font */
-    font-weight: bold; /* Apply bold weight */
+    font-family: "Geneva", sans-serif; /* Use "Helvetica" or a fallback sans-serif font */
+    font-weight: 400;
+    margin-bottom: 10px;
       
 }
 
@@ -130,7 +144,7 @@
     padding: 50px;
     /*border: 1px solid red;*/
     font-size: 200px;
-    color: teal;
+    color: rgb(7, 112, 79);
     text-decoration: underline;
 
 
